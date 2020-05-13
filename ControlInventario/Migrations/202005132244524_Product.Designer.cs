@@ -7,13 +7,13 @@ namespace ControlInventario.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Productos : IMigrationMetadata
+    public sealed partial class Product : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Productos));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Product));
         
         string IMigrationMetadata.Id
         {
-            get { return "202005062238389_Productos"; }
+            get { return "202005132244524_Product"; }
         }
         
         string IMigrationMetadata.Source

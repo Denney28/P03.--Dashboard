@@ -178,9 +178,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202005062238389_Productos.cs" />
-    <Compile Include="Migrations\202005062238389_Productos.Designer.cs">
-      <DependentUpon>202005062238389_Productos.cs</DependentUpon>
+    <Compile Include="Migrations\202005132242446_Suppliers.cs" />
+    <Compile Include="Migrations\202005132242446_Suppliers.Designer.cs">
+      <DependentUpon>202005132242446_Suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005132244524_Product.cs" />
+    <Compile Include="Migrations\202005132244524_Product.Designer.cs">
+      <DependentUpon>202005132244524_Product.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -2008,8 +2012,11 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202005062238389_Productos.resx">
-      <DependentUpon>202005062238389_Productos.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202005132242446_Suppliers.resx">
+      <DependentUpon>202005132242446_Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005132244524_Product.resx">
+      <DependentUpon>202005132244524_Product.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
